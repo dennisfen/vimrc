@@ -4,6 +4,6 @@ Usage:
 ------
 ```
 $ cd  
-$ git clone git@github.com:dennisfen/vimrc.git .vim  
+$ git clone https://github.com/dennisfen/vimrc.git .vim  
 $ echo "runtime vimrc" > .vimrc
 ```
