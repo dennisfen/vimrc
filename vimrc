@@ -15,10 +15,9 @@ autocmd FileType make set noexpandtab shiftwidth=4 softtabstop=0
 set showcmd
 set number
 " show filename in status line
-set statusline+=%F
+set statusline+=%F\ %l\:%c
 " Show matching brackets
 set showmatch
-set ruler
 
 " Ignore case when searching in a smart way:
 " /searchme - case ignored
