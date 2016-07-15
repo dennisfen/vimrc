@@ -2,8 +2,7 @@
 set nocompatible
 
 " filetype detect
-filetype on
-filetype indent on
+filetype plugin indent on
 syntax enable
 
 " indentation and tab expansion stuff
