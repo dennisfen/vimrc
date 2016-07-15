@@ -1,3 +1,6 @@
+" switch compatibility mode of (just in case)
+set nocompatible
+
 " filetype detect
 filetype on
 filetype indent on
