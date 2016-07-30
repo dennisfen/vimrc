@@ -36,3 +36,5 @@ set wrap
 set textwidth=0
 set colorcolumn=81
 
+" Hotkey (\w) for vertical split
+nnoremap <leader>w <C-w>v<C-w>l
