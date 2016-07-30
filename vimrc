@@ -29,3 +29,4 @@ set smartcase
 
 " Highlight search results
 set hlsearch
+nnoremap <leader><space> :noh<cr>
