@@ -30,3 +30,9 @@ set smartcase
 " Highlight search results
 set hlsearch
 nnoremap <leader><space> :noh<cr>
+
+" Long lines and wrapping
+set wrap
+set textwidth=0
+set colorcolumn=81
+
