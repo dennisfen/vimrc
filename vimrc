@@ -38,3 +38,6 @@ set colorcolumn=81
 
 " Hotkey (\w) for vertical split
 nnoremap <leader>w <C-w>v<C-w>l
+
+" Insert closing curly brace and put cursor inbetween
+inoremap {<CR> {<CR>}<Esc>ko
