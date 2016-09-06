@@ -54,3 +54,6 @@ let g:ycm_key_list_selet_completion = ['<TAB>', '<DOWN>', '<Enter>']
 
 " Insert closing curly brace and put cursor inbetween
 inoremap {<CR> {<CR>}<Esc>ko
+
+" enable pathogen
+execute pathogen#infect()
