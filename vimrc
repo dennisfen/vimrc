@@ -39,5 +39,18 @@ set colorcolumn=81
 " Hotkey (\w) for vertical split
 nnoremap <leader>w <C-w>v<C-w>l
 
+" Enable YCM fallback config file (C++)
+let g:ycm_global_ycm_extra_conf = '~/.vim/.ycm_extra_conf.py'
+
+" Suppress extra_conf.py loading confirmation
+let g:ycm_confirm_extra_conf = 0
+
+" Autoclose preview window
+let g:ycm_autoclose_preview_window_after_completion = 0
+let g:ycm_autoclose_preview_window_after_insertion = 1
+
+" Set completion selection keys
+let g:ycm_key_list_selet_completion = ['<TAB>', '<DOWN>', '<Enter>']
+
 " Insert closing curly brace and put cursor inbetween
 inoremap {<CR> {<CR>}<Esc>ko
