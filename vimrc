@@ -57,3 +57,10 @@ inoremap {<CR> {<CR>}<Esc>ko
 
 " enable pathogen
 execute pathogen#infect()
+
+"" NERDTree
+" open NERDTree automatically on startup with cursor in the other window
+autocmd vimenter * NERDTree
+autocmd vimenter * wincmd p
+" close vim when only NERDTree window is left open
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
