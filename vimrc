@@ -35,6 +35,7 @@ nnoremap <leader><space> :noh<cr>
 set wrap
 set textwidth=0
 set colorcolumn=81
+highlight ColorColumn ctermbg=0 
 
 " Hotkey (\w) for vertical split
 nnoremap <leader>w <C-w>v<C-w>l
