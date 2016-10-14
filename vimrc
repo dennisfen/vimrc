@@ -1,6 +1,11 @@
 " switch compatibility mode of (just in case)
 set nocompatible
 
+"" Pathogen
+" enable pathogen
+execute pathogen#infect()
+
+
 " filetype detect
 filetype plugin indent on
 syntax enable
@@ -40,6 +45,11 @@ highlight ColorColumn ctermbg=0
 " Hotkey (\w) for vertical split
 nnoremap <leader>w <C-w>v<C-w>l
 
+" Insert closing curly brace and put cursor inbetween
+inoremap {<CR> {<CR>}<Esc>ko
+
+
+"" YCM
 " Enable YCM fallback config file (C++)
 let g:ycm_global_ycm_extra_conf = '~/.vim/.ycm_extra_conf.py'
 
@@ -56,11 +66,6 @@ let g:ycm_key_list_selet_completion = ['<TAB>', '<DOWN>', '<Enter>']
 " Apply YCM FixIt
 map <F9> :YcmCompleter FixIt<CR>
 
-" Insert closing curly brace and put cursor inbetween
-inoremap {<CR> {<CR>}<Esc>ko
-
-" enable pathogen
-execute pathogen#infect()
 
 "" NERDTree
 " open NERDTree automatically on startup with cursor in the other window
