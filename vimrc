@@ -61,7 +61,7 @@ let g:ycm_autoclose_preview_window_after_completion = 0
 let g:ycm_autoclose_preview_window_after_insertion = 1
 
 " Set completion selection keys
-let g:ycm_key_list_selet_completion = ['<TAB>', '<DOWN>', '<Enter>']
+let g:ycm_key_list_select_completion = ['<TAB>', '<DOWN>', '<Enter>']
 
 " Apply YCM FixIt
 map <F9> :YcmCompleter FixIt<CR>
