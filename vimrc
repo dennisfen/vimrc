@@ -66,6 +66,8 @@ let g:ycm_key_list_select_completion = ['<TAB>', '<DOWN>', '<Enter>']
 " Apply YCM FixIt
 map <F9> :YcmCompleter FixIt<CR>
 
+" Disable error and warning symbols in gutter
+let g:ycm_enable_diagnostic_signs = 0
 
 "" NERDTree
 " open NERDTree automatically on startup with cursor in the other window
