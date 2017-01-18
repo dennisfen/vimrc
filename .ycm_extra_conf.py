@@ -80,7 +80,8 @@ flags = [
 './tests/gmock',
 '-isystem',
 './tests/gmock/include',
-
+'-isystem',
+'/usr/include',
 # Arch Linux Qt 5 include dirs
 '-DQT_CORE_LIB',
 '-DQT_GUI_LIB'
