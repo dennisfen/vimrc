@@ -58,6 +58,11 @@ map <esc>OH <home>
 cmap <esc>OH <home>
 imap <esc>OH <home>
 
+" Fix End key
+map <esc>OF <end>
+cmap <esc>OF <end>
+imap <esc>OF <end>
+
 "" YCM
 " Enable YCM fallback config file (C++)
 let g:ycm_global_ycm_extra_conf = '~/.vim/.ycm_extra_conf.py'
