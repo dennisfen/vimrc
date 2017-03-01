@@ -103,6 +103,6 @@ let g:ycm_semantic_triggers = {
 "autocmd vimenter * wincmd p
 " close vim when only NERDTree window is left open
 "autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
-nmap <silent> <leader>nt :NERDTree<CR>
+nmap <silent> <leader>nt :NERDTreeToggle<CR>
 
 let g:powerline_pycmd = 'py3'
