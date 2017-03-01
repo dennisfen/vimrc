@@ -63,6 +63,9 @@ map <esc>OF <end>
 cmap <esc>OF <end>
 imap <esc>OF <end>
 
+" Comment out a line of C-code (with <leader>/)
+noremap <leader>/ <esc>I//<esc>$
+
 "" YCM
 " Enable YCM fallback config file (C++)
 let g:ycm_global_ycm_extra_conf = '~/.vim/.ycm_extra_conf.py'
