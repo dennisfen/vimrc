@@ -53,6 +53,10 @@ nnoremap <leader>w <C-w>v<C-w>l
 " Insert closing curly brace and put cursor inbetween
 inoremap {<CR> {<CR>}<Esc>ko
 
+" Fix Home key
+map <esc>OH <home>
+cmap <esc>OH <home>
+imap <esc>OH <home>
 
 "" YCM
 " Enable YCM fallback config file (C++)
