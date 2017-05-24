@@ -12,8 +12,8 @@ syntax enable
 
 " color theme
 set background=dark
-let g:solarized_termcolors=256
-colorscheme solarized
+"let g:solarized_termcolors=256
+"colorscheme solarized
 
 " indentation and tab expansion stuff
 set tabstop=4
