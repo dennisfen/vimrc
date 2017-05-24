@@ -31,6 +31,10 @@ set statusline+=%F\ %l\:%c
 " Show matching brackets
 set showmatch
 
+" show spaces and tabs while typing
+set lcs=trail:·,tab:»·
+set list
+
 " Ignore case when searching in a smart way:
 " /searchme - case ignored
 " /Searchme - case sensitive
