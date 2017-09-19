@@ -50,8 +50,11 @@ nnoremap <leader><space> :noh<cr>
 " Long lines and wrapping
 set wrap
 set textwidth=80
-set colorcolumn=81
-highlight ColorColumn ctermbg=0 
+"set colorcolumn=81
+"highlight ColorColumn ctermbg=0
+"let &colorcolumn=join(range(81,999),",")
+" this will highlight first character beyond 80 char boundary
+call matchadd('ColorColumn', '\%81v\s*\zs\S', 100)
 
 " Hotkey (\w) for vertical split
 nnoremap <leader>w <C-w>v<C-w>l
