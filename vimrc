@@ -28,6 +28,8 @@ set showcmd
 set number
 " show filename in status line
 set statusline+=%F\ %l\:%c
+" always show statusline
+set laststatus=2
 " Show matching brackets
 set showmatch
 
