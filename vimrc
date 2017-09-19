@@ -49,7 +49,7 @@ nnoremap <leader><space> :noh<cr>
 
 " Long lines and wrapping
 set wrap
-set textwidth=0
+set textwidth=80
 set colorcolumn=81
 highlight ColorColumn ctermbg=0 
 
